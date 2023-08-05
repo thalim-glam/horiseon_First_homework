@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+/* This will be applied for all elements */
 
 body {
     background-color: #d9dcd6;
 }
+/* This will be applied for body elements */
 
 .header {
     padding: 20px;
@@ -14,6 +16,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* This will be applied for header elements only */
 
 .header h1 {
     display: inline-block;
@@ -45,10 +48,12 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* This will be applied for anchor element */
 
 p {
     font-size: 16px;
 }
+/* This will be applied for paragraph */
 
 .hero {
     height: 800px;
@@ -194,7 +199,9 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* This will be applied for footer elements only */
 
 .footer h2 {
     font-size: 20px;
 }
+/* This will be applied for footer heading*/
