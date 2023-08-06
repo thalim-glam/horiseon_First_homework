@@ -141,16 +141,19 @@ p {
 }
 
 .lead-generate img {
+    display: block;
     max-height: 200px;
     max-width: 600px;
 }
 
 .brand-aware img {
+    display: block;
     max-height: 200px;
     max-width: 500px;
 }
 
 .benefit-cost img {
+    display: block;
     max-height: 200px;
     max-width: 600px;
 }
