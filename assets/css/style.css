@@ -13,7 +13,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #0072bb;
     color: #ffffff;
 }
 /* This will be applied for header elements only */
@@ -24,7 +24,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #ffffff;
 }
 
 .header div {
@@ -61,7 +61,6 @@ p {
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
 }
 
 .float-left {
@@ -74,31 +73,20 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
+.top-content {
+    width: 96%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
+.bottom-content {
+    width: 96%;
+    display: inline-block;
+    margin-left: 30px;
 }
-.benefit h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-.benefit image {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-
-}
-
-
-
 /*
-.benefits {
+
+.bottom-content {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -108,54 +96,63 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 */
-.benefit-lead {
-    margin-bottom: 32px;
+
+.lead-generate {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
+.brand-aware {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
+.lead-generate h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
+.brand-aware h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+.benefit-cost h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.lead-generate img {
+    max-height: 200px;
+    max-width: 600px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.brand-aware img {
+    max-height: 200px;
+    max-width: 500px;
 }
 
 .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    max-height: 200px;
+    max-width: 600px;
 }
 
 .search-engine-optimization {
